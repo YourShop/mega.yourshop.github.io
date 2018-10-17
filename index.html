@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat+Alternates|Neucha|Playfair+Display" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="top"></div>
+        <div class="logo">
+            <h1>Your Shop</h1></div>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="#pomade" class="act">Помада</a></li>
+            <li><a href="#gloves">Рукавички</a></li>
+            <li><a href="#naiser">Найсери</a></li>
+            <li><a href="#price">Замовлення</a></li>
+            <li class="icon"><a href="javascript:void(0);" style="font-size: 15px;" onclick="myFunction()">&#9776;</a></li>
+        </ul>
+               
+        <!--       ///////////////////////////////-->
+        <!--        //////////////////////////////////////////////-->
+        <div class="slideshow-container">
+            <div class="mySlides fade"> <img src="images/korea.jpg" style="width:100%" class="imageW"> </div>
+            <div class="mySlides fade"> <img src="images/kylie2.jpg" style="width:100%" class="imageW"> </div>
+            <div class="mySlides fade"> <img src="images/DogCat.jpg" style="width:100%" class="imageW"> </div>
+            <div class="mySlides fade"> <img src="images/animals2.jpg" style="width:100%" class="imageW"> </div>
+            <div class="mySlides fade"> <img src="images/qqq.jpg" style="width:100%" class="imageW"> </div>
+            <div class="mySlides fade"> <img src="images/Naiser1.jpg" style="width:100%" class="imageW"> </div>
+            <div style="text-align:center"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> <span class="dot" onclick="currentSlide(4)"></span> <span class="dot" onclick="currentSlide(5)"></span> <span class="dot" onclick="currentSlide(6)"></span> </div> <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+        <div class="slideshow-container">
+            <div id="slides"> <img src="images/korea.jpg" style="max-width: 100%;max-height: 100%;" alt="" class="slide showing"> <img src="images/DogCat.jpg" style="width:100%" alt="" class="slide"> <img src="images/3.jpg" style="width:100%" alt="" class="slide"> </div>
+        </div>
+        <!--       ///////////////////////////////-->
+        <div id="pomade">
+            <h2>Помада</h2>
+            <h3>169 грн</h3> <img class="imgKylie" src="images/kylie3.jpg" alt=""> <img class="imgKylie" src="images/kylie2.jpg" alt=""> <img class="imgKylie" src="images/kylie1.jpg" alt=""> <img class="imgKylie" src="images/kylie4.jpg" alt="">
+            <!--               <img class="imgKylie" src="images/kylie5.jpg" alt="">-->
+            <!--            class="textPomade"-->
+            <p>Набор матовых жидких губных помад Kylie Birthday Edition - это яркий пример тщательного подхода к качеству, стилю и комфорту. Набор состоит из 6-ти наиболее популярных оттенков. Матовые помады не сушат губы, отличаются особой стойкостью, делают губы нежными и бархатными. </p>
+        </div>
+        <div id="naiser">
+            <h2>Найсер</h2>
+            <h3>249 грн</h3> <img class="imgNaiser" src="images/Naiser1.jpg" alt=""> <img class="imgNaiser" src="images/Naiser2.jpg" alt=""> <img class="imgNaiser" src="images/Naiser3.jpg" alt="">
+            <!--              <img class="imgNaiser" src="images/Naiser4.jpg" alt="">--><img class="imgNaiser" src="images/Naiser5.jpg" alt="">
+            <p class="textNaiser">Что такое Nicer Dicer Plus? Овощерезка Nicer Dicer Plus – это незаменимый помощник на любой кухне, даже профессиональной. Его чрезвычайно острые режущие лезвия позволяют безупречно нарезать все виды фруктов и овощей. Для того, чтобы нарезать овощи, фрукты, мясо, сыр и другие продукты, достаточно потратить несколько секунд. Кстати, независимо от того сырые они или варенные. Нужно выбрать способ нарезания (кубиками, ломтиками, четвертинками, клиньями), поставить соответствующую насадку-нож, положить на него желаемый продукт и закрыть крышку, которая протолкнет его через лезвия ножа.</p>
+            <p class="textHor"> NICER DICER PLUS ПОМОЖЕТ ВАМ: </p>
+            <p class="textNaiser"> <img src="images/Naiser2.jpg" id="sok" alt=""> <span id="spanText"> &#10004;Удобный пиллер поможет Вам быстро почистить овощи и фрукты без риска поранить руки об острое лезвие.</span></p>
+            <div class="naiserBlock">
+            <p class="textNaiser"> <img src="images/Naiser5.jpg" id="sok" alt=""> <span id="spanText"> &#10004; Нарезать Набор из четырёх лезвий поможет быстро и аккуратно нарезать продукты ломтиками или кубиками.</span></p></div>
+            <div class="naiserBlock2">
+            <p class="textNaiser"><img src="images/Naiser3.jpg" id="sok" alt=""> <span id="spanText"> &#10004;Натирать Удобная насадка крупной терки с защитной крышкой позволит натереть продукты прямо в контейнер </span></p></div>
+            <p class="textHor">Овощерезка Nicer Dicer включаєт в себя:</p> <p class="textNaiser"><img src="images/Naiser4.jpg" id="sok" alt=""> <span id="spanText"> &#10004;Пилер для удаления кожуры Терка с защитной крышкой Шинковка с мембраной Удобный контейнер емкостью 1,5 л Различные режущие насадки</span></p>
+            <p class="textNaiser">ЧЕМ ХОРОША ОВОЩЕРЕЗКА NICER DICER PLUS: проста в уходе и эксплуатации. Ее можно мыть даже в посудомойке. За доступную цену вы получаете отличное приспособление для нарезания продуктов. Nicer Dicer Plus более чем в трое сэкономит Ваше время на приготовление еды. Овощерезка Nicer Dicer Plus за считаные минуты поможет нарезать продукты Острые как бритва лезвия овощерезки произведены из нержавеющей стали Контейнер с герметично закрывающейся крышкой сохранит свежесть продуктам</p>
+        </div>
+        <div id="gloves">
+            <h2>Рукавички</h2>
+            <h3>110 грн</h3> <img class="imgGloves" src="images/Gloves1.jpg" alt=""> <img class="imgGloves" src="images/Gloves2.jpg" alt=""> <img class="imgGloves" src="images/Gloves3.jpg" alt=""> <img class="imgGloves" src="images/Gloves4.jpg" alt="">
+            <p>Массажная перчатка для вычесывания шерсти (True Touch). Эта революционная перчатка, которая позволит Вам без всяких усилий удалить старую шерсть и сделать нежнейший массаж Вашему питомцу. Удаляя старую шерсть, Вы способствуете росту новой здоровой шерсти. Перчатка снабжена нежнейшими щетинками, которые с легкостью удаляют старую шерсть. Перчатка не требует специального ухода, достаточно просто помыть ее под водой с мылом. True Touch выполнена из безопасных материалов, и не принесет вреда вашему питомцу. Процесс доставит вашему любимцу несказанное удовольствие, а его шерсть всегда будет выглядеть красивой и блестящей. </p>
+        </div>
+        <div id="price">
+            <div id="Contact1">
+                <h3 id="ContactText1"><p class="textColorOrder">Замовлення через:</p> <p><a href="https://www.facebook.com/Your-Shop-1087850698033840/"><img id="facebookCont" src="images/facebook.png"  
+   alt="Пример"></a> <a href="https://www.instagram.com/pink_____unicorns_/"><img id="InstagramCont" src="images/instagram.png"  
+   alt="Пример"></a></p> 
+         
+          <p><img id="smartfonCont" src="images/smartphone.png" alt=""><a id="nomber" title="Позвонить" href="tel:+380632171077"> +380632171077</a></p>
+             <div id="Delivery1"><h4 id="DeliverySam1"><p>Доставка <span>Новою Поштою</span> по Україні</p>
+            <p>Оплата після отримання товару</p> </h4>
+           <img width="100px" src="images/Sity.png" id="sity" alt="">
+           </div>
+           </h3></div>
+        </div>
+        <div class="road"> <img id="car" width="100px" src="images/NewPost.png" alt=""> </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
